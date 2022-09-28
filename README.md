@@ -20,7 +20,7 @@ Start building your own functions!
 
 Follow the instructions in `library.py` to complete this challenge. 
 
-NOTE: Now that we know how to write our own functions, our tests don't need to match exactly! We can test the output of your _functions_ based on test inputs rather than checking your print statements. Make sure that you're running your own code (ex: `python3 library.py`) to see what your code is outputting!
+NOTE: Now that we know how to write our own functions, our tests don't always need to match exactly! We can test the output of your _functions_ based on test inputs rather than checking your print statements. Make sure that you're running your own code (ex: `python3 library.py`) to see what your code is outputting!
 
 ---
 
