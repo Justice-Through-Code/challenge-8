@@ -2,11 +2,11 @@
 # You are working on a library management system, here are the list books at the library
 
 books = [
-    'MY OWN WORDS', 'THE BODY KEEPS THE SCORE', 'STAMPED FROM THE BEGINNING', 'JUST MERCY', 'BORN A CRIME', 'ON TYRANNY'
+    'MY OWN WORDS', 'THE BODY KEEPS THE SCORE', 'STAMPED FROM THE BEGINNING', 'JUST MERCY', 'BORN A CRIME', 'ON TYRANNY', 'HOMO DEUS: A BRIEF HISTORY OF TOMORROW',
     'THE WARMTH OF OTHER SUNS', 'THE NEW JIM CROW', 'SAPIENS', 'BRAIDING SWEETGRASS', 'MY GRANDMOTHER\'S HANDS', 'THE ROAD TO UNFREEDOM'
 ]
 
-# 1.1 TODO: Create a function named 'available_books' to print the books list
+# 1.1 TODO: Create a function named 'available_books' to print the books list-- one book title on each line
 # Parameters: Not needed for this function
 # Return: Not needed for this function
 
@@ -14,8 +14,9 @@ books = [
 # 1.2 TODO: Run the 'available_books' function
 
 
+print('-----------------------')
 # 1.3 TODO: Create a function named 'check_out' that removes a book from the books list
-# Parameters: book (string)
+# Parameters: book_title (string)
 # Return: Not needed for this function
 
 
@@ -25,20 +26,28 @@ books = [
 # 1.5 TODO: Run the 'available_books' function again to see if the book was checked out
 
 
-# 1.6 TODO: Create a function 'check_in' that adds a book to the books list
-# Parameters: book (string)
+print('-----------------------')
+# 1.6 TODO: Create a function 'check_in' that adds a book to the end of the books list
+# Parameters: book_title (string)
 # Return: Not needed for this function
 
 
 # 1.7 TODO: Check in 'SAPIENS' using the check_in function
 
+
 # 1.8 TODO: Run the 'available_books' function to see if the book was checked in
 
+
+print('-----------------------')
 # 1.9 TODO: Create a function 'search_by_name' that prints 'Available' if exists in books list, 'Not Available' if it doesn't.
-# Parameters: book (string)
+# Parameters: book_title (string)
 # Return: Not needed for this function
 
+
 # 1.10 TODO: Search for the book 'JUST MERCY'
+
+
+# 1.11 TODO: Search for the book '4000 WEEKS'
 
 
 # Here's the same list of books, with additional details
@@ -76,6 +85,11 @@ books_with_details = [
         'description': 'Twenty lessons from the 20th century about the course of tyranny.'
     },
     {
+        'title': 'HOMO DEUS: A BRIEF HISTORY OF TOMORROW',
+        'author': 'Yuval Noah Harari',
+        'description': 'Following the success of Sapiens, Yuval Noah Harari looks to the future to see where we\'re headed.',
+    },
+    {
         'title': 'THE WARMTH OF OTHER SUNS',
         'author': 'Isabel Wilkerson',
         'description': 'An account of the Great Migration of 1915-70, in which six million African-Americans abandoned the South.'
@@ -111,6 +125,8 @@ books_with_details = [
 # 2.0 TODO: In a comment, describe the structure of the data in books_with_details.
 # What types of data are nested within others? How do you know?
 
+# `books_with_details` is a list of dictionaries, because it is square brackets with items assorted by curly brackets inside
+
 
 # 2.1 TODO: Create a function called 'count_books' that returns the number of books in the books_with_details list
 # Parameters: Not needed for this function
@@ -118,6 +134,7 @@ books_with_details = [
 
 
 # 2.2 TODO: Check the number of books available in the books list using the `count_books` function
+# HINT: Does `return` print anything out?
 
 
 # 2.3 TODO: Create a function 'search_by_author' that returns the titles of books by an author
@@ -126,4 +143,5 @@ books_with_details = [
 # Hint - You will need a for loop, if statement, and .append() for this solution!
 
 
-# 2.4 TODO: Search for book titles by the author 'Timothy Snyder' using the search_by_author function
+# 2.4 TODO: Search for book titles by the author 'Yuval Noah Harari' using the search_by_author function
+# HINT: Remember again-- return doesn't print anything out. How can we print the output of the function?
