@@ -125,8 +125,6 @@ books_with_details = [
 # 2.0 TODO: In a comment, describe the structure of the data in books_with_details.
 # What types of data are nested within others? How do you know?
 
-# `books_with_details` is a list of dictionaries, because it is square brackets with items assorted by curly brackets inside
-
 
 # 2.1 TODO: Create a function called 'count_books' that returns the number of books in the books_with_details list
 # Parameters: Not needed for this function
